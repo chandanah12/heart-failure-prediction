@@ -6,7 +6,7 @@ Predicting heart disease from patient clinical data using Python, with a focus o
 - **Data:** Kaggle "Heart Failure Prediction" dataset, 918 patients and 12 features (age, sex, chest pain type, resting BP, cholesterol, max heart rate, ST slope, etc.)
 - **Target:** `HeartDisease` (1 = disease, 0 = no disease). The dataset has 508 disease cases and 410 non-disease cases.
 - **Tools:** Python, pandas, NumPy, matplotlib, seaborn, scikit-learn
-- **Dataset link:** [paste the Kaggle link here]. Download `heart.csv` and place it next to the notebook to run it.
+- **Dataset link:** [https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction]. Download `heart.csv` and place it next to the notebook to run it.
 
 ## Key finding: hidden missing data
 An initial comparison showed *lower* average cholesterol in heart disease patients, which is the opposite of what is medically expected. Investigating this showed:
